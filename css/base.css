@@ -117,6 +117,9 @@ p {
 
 .section-alt {
   background-color: var(--bg-secondary);
+  background-image: radial-gradient(var(--border-subtle) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0;
   transition: background-color var(--transition-normal);
 }
 
