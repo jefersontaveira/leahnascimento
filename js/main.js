@@ -113,18 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ease: 'power2.out',
       });
 
-      // Acordeão de Serviços
-      gsap.from('.accordion-item', {
-        scrollTrigger: {
-          trigger: '.services-accordion-wrapper',
-          start: 'top 80%',
-        },
-        opacity: 0,
-        y: 30,
-        duration: 0.6,
-        stagger: 0.12,
-        ease: 'power2.out',
-      });
+      // Acordeão de Serviços (Efeito removido para garantir alinhamento e espaçamento perfeitos)
 
       // Card VIP Incorporação
       gsap.from('.incorporacao-vip-card', {
@@ -152,19 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ease: 'power2.out',
       });
 
-      // Diferenciais
-      gsap.from('.diff-card', {
-        scrollTrigger: {
-          trigger: '.differentials-grid',
-          start: 'top 80%',
-        },
-        opacity: 0,
-        y: 35,
-        duration: 0.7,
-        stagger: 0.12,
-        ease: 'power2.out',
-      });
-
+      // Diferenciais (Efeito removido para garantir alinhamento perfeito)
       // Sobre Mim
       gsap.from('.about-photo-wrapper', {
         scrollTrigger: {
@@ -188,19 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ease: 'power2.out',
       });
 
-      // Timeline de Atendimento
-      gsap.from('.process-card', {
-        scrollTrigger: {
-          trigger: '.process-grid',
-          start: 'top 80%',
-        },
-        opacity: 0,
-        y: 30,
-        duration: 0.7,
-        stagger: 0.15,
-        ease: 'power2.out',
-      });
-
+      // Timeline de Atendimento (Efeito removido para garantir alinhamento perfeito)
       // Reviews
       gsap.from('.review-card', {
         scrollTrigger: {

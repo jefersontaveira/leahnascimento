@@ -84,10 +84,11 @@ body[data-theme="dark"],
   --overlay-gradient: linear-gradient(180deg, rgba(8, 23, 52, 0) 0%, rgba(8, 23, 52, 0.95) 100%);
   --gold-gradient: linear-gradient(135deg, #F3D89D 0%, #DDB876 50%, #B8924B 100%);
   --blue-gradient: linear-gradient(135deg, #0e224b 0%, #081734 100%);
-  
-  --hero-glow-1: radial-gradient(circle, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 70%);
-  --hero-glow-2: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
-  --hero-glow-3: radial-gradient(circle, rgba(221, 184, 118, 0.22) 0%, rgba(221, 184, 118, 0) 70%);
+  --parallax-overlay: rgba(10, 27, 61, 0.85);
+  --vip-card-bg: rgba(8, 23, 52, 0.92);
+  --hero-glow-1: rgba(255, 255, 255, 0.04);
+  --hero-glow-2: rgba(255, 255, 255, 0.03);
+  --hero-glow-3: rgba(221, 184, 118, 0.12);
 }
 
 /* ==========================================================================
@@ -128,9 +129,11 @@ body[data-theme="light"] {
 
   --overlay-gradient: linear-gradient(180deg, rgba(248, 250, 253, 0) 0%, rgba(248, 250, 253, 0.95) 100%);
   --gold-gradient: linear-gradient(135deg, #edd19c 0%, #DDB876 50%, #b8924b 100%);
+  --text-gradient-gold: linear-gradient(135deg, #B8924B 0%, #9A7734 50%, #7A5B20 100%);
   --blue-gradient: linear-gradient(135deg, #FFFFFF 0%, #EDF2F9 100%);
-  
-  --hero-glow-1: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
-  --hero-glow-2: radial-gradient(circle, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
-  --hero-glow-3: radial-gradient(circle, rgba(221, 184, 118, 0.40) 0%, rgba(221, 184, 118, 0) 70%);
+  --parallax-overlay: rgba(237, 242, 249, 0.85);
+  --vip-card-bg: rgba(255, 255, 255, 0.95);
+  --hero-glow-1: rgba(255, 255, 255, 0.85);
+  --hero-glow-2: rgba(255, 255, 255, 0.8);
+  --hero-glow-3: rgba(221, 184, 118, 0.35);
 }

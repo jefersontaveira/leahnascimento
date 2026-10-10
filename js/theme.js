@@ -33,9 +33,17 @@
   // Event Listeners nos botões de alternância
   themeToggleBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
+      // Adicionar classe de transição suave de 3 segundos
+      htmlBody.classList.add('theme-transitioning');
+      
       const active = htmlBody.getAttribute('data-theme') || 'dark';
       const nextTheme = active === 'dark' ? 'light' : 'dark';
       applyTheme(nextTheme);
+
+      // Remover a classe após a transição terminar
+      setTimeout(() => {
+        htmlBody.classList.remove('theme-transitioning');
+      }, 1000);
     });
   });
 })();
