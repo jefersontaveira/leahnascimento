@@ -1,0 +1,229 @@
+/* ==========================================================================
+   RESPONSIVIDADE (MOBILE, TABLET & DESKTOP) - LÉA NASCIMENTO
+   ========================================================================== */
+
+/* Telas Grandes & Laptops (<= 1200px) */
+@media (max-width: 1200px) {
+  .hero-floating-card.card-1 {
+    left: 10px;
+    bottom: 20px;
+  }
+  .hero-floating-card.card-2 {
+    right: 10px;
+    top: 20px;
+  }
+  .differentials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablets (<= 992px) */
+@media (max-width: 992px) {
+  .site-header {
+    height: 76px;
+  }
+
+  .nav-menu,
+  .header-cta-btn {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .hero-section {
+    padding-top: 130px;
+    padding-bottom: 80px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-cta-group {
+    justify-content: center;
+  }
+
+  .hero-trust-bar {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .hero-visual {
+    margin-top: 20px;
+  }
+
+  .hero-floating-card.card-1 {
+    left: 5%;
+    bottom: 10px;
+  }
+
+  .hero-floating-card.card-2 {
+    right: 5%;
+    top: 10px;
+  }
+
+  .incorporacao-vip-card {
+    padding: 40px 30px;
+  }
+
+  .vip-card-content {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .awareness-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .about-photo-wrapper {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .about-quote-box {
+    border-left: none;
+    border-top: 3px solid var(--brand-gold);
+    border-radius: var(--radius-md);
+  }
+
+  .contact-map-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-brand-col {
+    grid-column: span 2;
+  }
+}
+
+/* Smartphones (<= 768px) */
+@media (max-width: 768px) {
+  .section {
+    padding: 70px 0;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .service-checklist {
+    grid-template-columns: 1fr;
+  }
+
+  .accordion-header {
+    padding: 20px;
+  }
+
+  .accordion-title-text {
+    font-size: 1.1rem;
+  }
+
+  .accordion-inner {
+    padding: 0 20px 24px;
+  }
+
+  .accordion-cta-row {
+    justify-content: center;
+  }
+
+  .differentials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-banner {
+    padding: 48px 24px;
+  }
+
+  .floating-whatsapp span {
+    display: none;
+  }
+
+  .floating-whatsapp {
+    width: 58px;
+    height: 58px;
+    padding: 0;
+    justify-content: center;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .floating-whatsapp svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .footer-brand-col {
+    grid-column: span 1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}
+
+/* Telas Muito Pequenas (<= 480px) */
+@media (max-width: 480px) {
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .hero-floating-card {
+    padding: 10px 14px;
+    gap: 10px;
+  }
+
+  .floating-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .floating-text-number {
+    font-size: 1.05rem;
+  }
+
+  .floating-text-label {
+    font-size: 0.72rem;
+  }
+
+  .problems-grid {
+    grid-template-columns: 1fr;
+  }
+}

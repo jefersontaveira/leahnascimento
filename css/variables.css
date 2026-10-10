@@ -1,0 +1,136 @@
+/* ==========================================================================
+   VARIÁVEIS DE DESIGN SYSTEM & TEMAS (DARK & LIGHT)
+   LÉA NASCIMENTO - REGULARIZAÇÃO IMOBILIÁRIA, LICENCIAMENTO & INCORPORAÇÃO
+   ========================================================================== */
+
+:root {
+  /* Cores Base da Marca */
+  --brand-blue: #081734;
+  --brand-blue-deep: #040c1b;
+  --brand-blue-surface: #0e224b;
+  --brand-blue-card: #122855;
+  --brand-blue-card-hover: #17326b;
+
+  --brand-gold: #DDB876;
+  --brand-gold-light: #edd19c;
+  --brand-gold-dark: #b8924b;
+  --brand-gold-glow: rgba(221, 184, 118, 0.25);
+  --brand-gold-border: rgba(221, 184, 118, 0.35);
+
+  --color-white: #FFFFFF;
+  --color-white-soft: #F8FAFC;
+  --color-white-mute: #E2E8F0;
+  
+  --whatsapp-green: #25D366;
+  --whatsapp-green-hover: #20bd5a;
+
+  /* Tipografia */
+  --font-serif: 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Transições e Sombras */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 30px;
+  --radius-pill: 9999px;
+
+  /* Container */
+  --container-max: 1400px;
+  --container-padding: 24px;
+}
+
+/* ==========================================================================
+   TEMA DARK (PADRÃO - AZUL PROFUNDO E DOURADO METÁLICO)
+   ========================================================================== */
+body[data-theme="dark"],
+:root:not([data-theme="light"]) {
+  --bg-primary: #081734;
+  --bg-secondary: #0a1b3d;
+  --bg-tertiary: #050f22;
+  --bg-card: rgba(14, 34, 75, 0.7);
+  --bg-card-hover: rgba(23, 50, 107, 0.85);
+  --bg-card-solid: #0e224b;
+  --bg-header: rgba(8, 23, 52, 0.88);
+  --bg-modal: #0a1c3f;
+  --bg-input: rgba(255, 255, 255, 0.05);
+
+  --text-primary: #FFFFFF;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-accent: #DDB876;
+  
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-gold: rgba(221, 184, 118, 0.3);
+  --border-gold-strong: rgba(221, 184, 118, 0.6);
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 20px 45px rgba(0, 0, 0, 0.45);
+  --shadow-gold: 0 8px 30px rgba(221, 184, 118, 0.18);
+  --shadow-glow: 0 0 35px rgba(221, 184, 118, 0.22);
+
+  --badge-bg: rgba(221, 184, 118, 0.12);
+  --badge-border: rgba(221, 184, 118, 0.4);
+  --badge-text: #edd19c;
+
+  --theme-toggle-bg: rgba(255, 255, 255, 0.08);
+  --theme-toggle-circle: #DDB876;
+  
+  --overlay-gradient: linear-gradient(180deg, rgba(8, 23, 52, 0) 0%, rgba(8, 23, 52, 0.95) 100%);
+  --gold-gradient: linear-gradient(135deg, #F3D89D 0%, #DDB876 50%, #B8924B 100%);
+  --blue-gradient: linear-gradient(135deg, #0e224b 0%, #081734 100%);
+  
+  --hero-glow-1: radial-gradient(circle, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 70%);
+  --hero-glow-2: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+  --hero-glow-3: radial-gradient(circle, rgba(221, 184, 118, 0.22) 0%, rgba(221, 184, 118, 0) 70%);
+}
+
+/* ==========================================================================
+   TEMA LIGHT (CLARO, NOBRE, COM TOQUES EM AZUL MARINHO E DOURADO)
+   ========================================================================== */
+body[data-theme="light"] {
+  --bg-primary: #F8FAFD;
+  --bg-secondary: #EDF2F9;
+  --bg-tertiary: #E2E8F0;
+  --bg-card: rgba(255, 255, 255, 0.92);
+  --bg-card-hover: #FFFFFF;
+  --bg-card-solid: #FFFFFF;
+  --bg-header: rgba(248, 250, 253, 0.92);
+  --bg-modal: #FFFFFF;
+  --bg-input: #F1F5F9;
+
+  --text-primary: #081734;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-accent: #9A7734;
+  
+  --border-subtle: rgba(8, 23, 52, 0.09);
+  --border-gold: rgba(184, 146, 75, 0.4);
+  --border-gold-strong: rgba(184, 146, 75, 0.7);
+
+  --shadow-sm: 0 4px 15px rgba(8, 23, 52, 0.05);
+  --shadow-md: 0 12px 30px rgba(8, 23, 52, 0.08);
+  --shadow-lg: 0 24px 50px rgba(8, 23, 52, 0.12);
+  --shadow-gold: 0 10px 30px rgba(184, 146, 75, 0.15);
+  --shadow-glow: 0 0 30px rgba(221, 184, 118, 0.25);
+
+  --badge-bg: rgba(8, 23, 52, 0.06);
+  --badge-border: rgba(184, 146, 75, 0.5);
+  --badge-text: #081734;
+
+  --theme-toggle-bg: #E2E8F0;
+  --theme-toggle-circle: #081734;
+
+  --overlay-gradient: linear-gradient(180deg, rgba(248, 250, 253, 0) 0%, rgba(248, 250, 253, 0.95) 100%);
+  --gold-gradient: linear-gradient(135deg, #edd19c 0%, #DDB876 50%, #b8924b 100%);
+  --blue-gradient: linear-gradient(135deg, #FFFFFF 0%, #EDF2F9 100%);
+  
+  --hero-glow-1: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 70%);
+  --hero-glow-2: radial-gradient(circle, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  --hero-glow-3: radial-gradient(circle, rgba(221, 184, 118, 0.40) 0%, rgba(221, 184, 118, 0) 70%);
+}
