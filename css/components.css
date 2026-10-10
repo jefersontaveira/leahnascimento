@@ -1041,6 +1041,9 @@ body[data-theme="light"] .incorporacao-vip-card {
   border-radius: var(--radius-lg);
   padding: 34px 26px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: border-color var(--transition-normal), box-shadow var(--transition-normal), background-color var(--transition-normal), transform var(--transition-normal);
 }
 
